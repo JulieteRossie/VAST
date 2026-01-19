@@ -20,6 +20,13 @@ This project uses Python 3.10.12, and all the dependencies are in pyproject.toml
 3. Install dependencies:
    ```bash
    poetry install
+4. The dataset is included in this repository via Git LFS for your convenience. 
+You can clone the entire project, including data, using:
+
+```bash
+git clone https://github.com/JulieteRossie/VAST.git
+```
+The data is also available in Zenodo [https://zenodo.org/records/18305726](https://zenodo.org/records/18305726), if you have download issues in github, download the dataset from zenodo into the root of the project.
 
 
 ## Usage

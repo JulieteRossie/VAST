@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "vast"
+version = "0.1.0"
+description = ""
+authors = ["JulieteRossie <juliete.rossie@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+jupyter = "^1.0.0"
+matplotlib = "^3.8.1"
+networkx = "^3.2.1"
+pycowsay = "^0.0.0.2"
+tqdm = "^4.66.1"
+scipy = "^1.12.0"
+clingo = "^5.7.1"
+seaborn = "^0.13.2"
+sqlalchemy = "^2.0.36"
+coverage = "^7.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

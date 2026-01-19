@@ -1,0 +1,12 @@
+arg(a).
+arg(b).
+arg(c).
+arg(d).
+arg(e).
+att(c,b).
+att(d,b).
+att(e,b).
+att(b,a).
+vote(a1,(a,1),(b,-1),(c,1),(d,-1),(e,-1)).
+vote(a1,(a,1),(b,-1),(c,-1),(d,-1),(e,1)).
+vote(a1,(a,1),(b,-1),(c,-1),(d,1),(e,-1)).
